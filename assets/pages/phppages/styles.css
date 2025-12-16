@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+  :root {
+    --white-color: #fff;
+    --blue-color: #4070f4;
+    --grey-color: #707070;
+    --grey-color-light: #aaa;
+  }
+  body {
+    background-color: #e7f2fd;
+    transition: all 0.5s ease;
+  }
+  body.dark {
+    background-color: #111144;
+  }
+  body.dark {
+    --white-color: #000021;
+    /* --blue-color: #fff; */
+    /* --grey-color: #f2f2f2; */
+    --grey-color-light: #aaa;
+  }
+  
+  /* navbar */
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    z-index: 1000;
+    box-shadow: 0 0 2px var(--grey-color-light);
+  }
+  .logo_item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--blue-color);
+  }
+  .navbar img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  /* sidebar */
+  .sidebar {
+    background-color: var(--white-color);
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 80px 20px;
+    z-index: 100;
+    overflow-y: auto;
+    box-shadow: 0 0 1px var(--grey-color-light);
+    transition: all 0.5s ease;
+  }
+  
+  .menu_content {
+    position: relative;
+  }
+  
+  .menu_items {
+    padding: 0;
+    list-style: none;
+    /* border-bottom: 0.1px solid black; */
+  }
+  .navlink_icon {
+    position: relative;
+    font-size: 22px;
+    min-width: 50px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+  }
+  .navlink_icon::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 100px);
+    left: -20px;
+  }
+
+  .sidebar .nav_link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 4px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--grey-color);
+    color: #94a0ab;
+    white-space: nowrap;
+    transition: all 0.4s;
+    border: 0.1px solid dodgerblue;
+  }
+  .sidebar.close .navlink {
+    display: none;
+  }
+  .nav_link:hover {
+      color: aliceblue;
+      /* text-shadow: 3px 3px 20px blue, -2px 1px 30px blue; */
+    background: var(--blue-color);
+    /* background: linear-gradient(to left top, #7c6bff, #5234ff, #4c29e7, #431fd2, #5d43b1, rgb(56, 26, 194), #36238b, #211479, #06038e, #08159a, #050d79, #250897); */
+    /* background: linear-gradient(to top left, #ff00d46c, rgba(0, 113, 243, 0.512)); */
+    /* background: radial-gradient(circle farthest-corner, rgb(38, 99, 192), rgb(17, 17, 203)); */
+    /* text-shadow: 0 0 5px aliceblue; */
+    /* border: none; */
+    cursor: pointer;
+    background-color: #0044ff;
+    background: radial-gradient(circle farthest-corner, rgb(38, 99, 192), rgb(17, 17, 203));
+    transform: translateY(-5px);
+    box-shadow: 0 4px 7px rgb(41, 41, 41);
+  }
+
+  .submenu_itemheader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submenu_itemheader a.nav_link {
+    border: none;
+    transform: none;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .submenu_item {
+    cursor: pointer;
+  }
+
+  .submenu {
+    display: none;
+  }
+  .submenu_item .arrow-left {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    margin-right: auto;
+  }
+  .sidebar.close .submenu {
+    display: none;
+  }
+  .show_submenu ~ .submenu {
+    display: block;
+  }
+  .show_submenu .arrow-left {
+    transform: rotate(90deg);
+  }
+  .submenu .sublink {
+    padding: 0px 0px 0px 52px;
+    border: none;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .submenu .sublink:hover {
+    cursor: pointer;
+    background-color: #0044ff;
+    /* background: radial-gradient(circle farthest-corner, rgb(38, 99, 192), rgb(17, 17, 203)); */
+    transform: none;
+    box-shadow: none;
+  }
+  
+
+/* font face */
+@font-face {
+    font-family: 'Poppins';
+    src: url(/assets/fonts/Poppins-Regular.ttf) format(truetype);
+}
