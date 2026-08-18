@@ -16,7 +16,7 @@
 /* ============== Body Style ==============e */
 body {
     background-color: rgb(7, 7, 37);
-    background-image: url(/assets/img/background-image/bg2.jpg);
+    background-image: url(assets/img/background-image/bg2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -68,7 +68,7 @@ nav .containernavitem .myprofile h2 {
 nav .containernavitem .myprofile .myphoto {
     width: 150px;
     height: 150px;
-    background-image: url(/assets/img/me/me1.jpeg);
+    background-image: url(assets/img/me/me1.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -142,31 +142,31 @@ nav .containernavitem .menu-link a i.icons {
 }
 
 nav .containernavitem .menu-link a i.homeicon {
-    background-image: url(/assets/icons/menu-link-icons/home1.png);
+    background-image: url(assets/icons/menu-link-icons/home1.png);
 }
 
 nav .containernavitem .menu-link a i.abouticon {
-    background-image: url(/assets/icons/menu-link-icons/about1.png);
+    background-image: url(assets/icons/menu-link-icons/about1.png);
 }
 
 nav .containernavitem .menu-link a i.skillticon {
-    background-image: url(/assets/icons/menu-link-icons/skill1.png);
+    background-image: url(assets/icons/menu-link-icons/skill1.png);
 }
 
 nav .containernavitem .menu-link a i.serviceicon {
-    background-image: url(/assets/icons/menu-link-icons/service1.png);
+    background-image: url(assets/icons/menu-link-icons/service1.png);
 }
 
 nav .containernavitem .menu-link a i.projecticon {
-    background-image: url(/assets/icons/menu-link-icons/projects1.png);
+    background-image: url(assets/icons/menu-link-icons/projects1.png);
 }
 
 nav .containernavitem .menu-link a i.portfolioicon {
-    background-image: url(/assets/icons/menu-link-icons/portfolio1.png);
+    background-image: url(assets/icons/menu-link-icons/portfolio1.png);
 }
 
 nav .containernavitem .menu-link a i.contacticon {
-    background-image: url(/assets/icons/menu-link-icons/contact1.png);
+    background-image: url(assets/icons/menu-link-icons/contact1.png);
 
 }
 
@@ -244,7 +244,7 @@ span.hamburger-menu {
     /* background: rgb(0, 16, 107); */
     width: 40px;
     height: 40px;
-    background-image: url(/assets/icons/hamburger-menu-icons/hamburger-menu.svg);
+    background-image: url(assets/icons/hamburger-menu-icons/hamburger-menu.svg);
     background-size: cover;
     border-radius: 10%;
     position: fixed;
@@ -368,7 +368,7 @@ span.hamburger-menu {
 .about .container-info-me .myphoto2 {
     width: 330px;
     height: 330px;
-    background-image: url(/assets/img/me/mephoto.jpeg);
+    background-image: url(assets/img/me/mephoto.jpeg);
     background-position: center;
     /* background-position: 0px -50px; */
     background-size: cover;
@@ -538,50 +538,50 @@ span.hamburger-menu {
 }
 
 .skills .progress .logo1 {
-    background-image: url(/assets/icons/program-logo/html.svg);
+    background-image: url(assets/icons/program-logo/html.svg);
 }
 
 .skills .progress .logo2 {
-    background-image: url(/assets/icons/program-logo/css.svg);
+    background-image: url(assets/icons/program-logo/css.svg);
 }
 
 .skills .progress .logo3 {
-    background-image: url(/assets/icons/program-logo/javascript.svg);
+    background-image: url(assets/icons/program-logo/javascript.svg);
 }
 
 .skills .progress .logo4 {
-    background-image: url(/assets/icons/program-logo/python.svg);
+    background-image: url(assets/icons/program-logo/python.svg);
 }
 
 .skills .progress .logo5 {
-    background-image: url(/assets/icons/program-logo/php.svg);
+    background-image: url(assets/icons/program-logo/php.svg);
     width: 40px;
     height: 22px;
     top: 5px;
 }
 
 .skills .progress .logo6 {
-    background-image: url(/assets/icons/program-logo/java.svg);
+    background-image: url(assets/icons/program-logo/java.svg);
 }
 
 .skills .progress .logo7 {
-    background-image: url(/assets/icons/program-logo/figma.svg);
+    background-image: url(assets/icons/program-logo/figma.svg);
 }
 
 .skills .progress .logo8 {
-    background-image: url(/assets/icons/program-logo/microsoft-excel-2019.svg);
+    background-image: url(assets/icons/program-logo/microsoft-excel-2019.svg);
 }
 
 .skills .progress .logo9 {
-    background-image: url(/assets/icons/program-logo/microsoft-word-2019.svg);
+    background-image: url(assets/icons/program-logo/microsoft-word-2019.svg);
 }
 
 .skills .progress .logo10 {
-    background-image: url(/assets/icons/program-logo/google-sheets.svg);
+    background-image: url(assets/icons/program-logo/google-sheets.svg);
 }
 
 .skills .progress .logo11 {
-    background-image: url(/assets/icons/program-logo/google-forms.svg);
+    background-image: url(assets/icons/program-logo/google-forms.svg);
 }
 
 /* learning history */
@@ -684,21 +684,21 @@ span.hamburger-menu {
 }
 
 .services .containercard .card1 .img {
-    background-image: url(/assets/icons/a-service-icons/source-code.png);
+    background-image: url(assets/icons/a-service-icons/source-code.png);
 }
 
 .services .containercard .card2 .img {
-    background-image: url(/assets/icons/a-service-icons/design.png);
+    background-image: url(assets/icons/a-service-icons/design.png);
     width: 70px;
     height: 70px;
 }
 
 .services .containercard .card3 .img {
-    background-image: url(/assets/img/icons-svg/icons8-article-96.png);
+    background-image: url(assets/img/icons-svg/icons8-article-96.png);
 }
 
 .services .containercard .card4 .img {
-    background-image: url(/assets/icons/a-service-icons/cyber-security.png);
+    background-image: url(assets/icons/a-service-icons/cyber-security.png);
     width: 90px;
     height: 70px;
     margin-bottom: 0;
@@ -795,12 +795,12 @@ span.hamburger-menu {
 }
 
 .portfolio .containerallimage .portfolio1 {
-    background-image: url(/assets/img/projects/Screenshot\ \(203\).png);
+    background-image: url(assets/img/projects/Screenshot\ \(203\).png);
     background-position: -15px -50px;
 }
 
 .portfolio .containerallimage .portfolio2 {
-    background-image: url(/assets/img/projects/Screenshot\ \(221\).png);
+    background-image: url(assets/img/projects/Screenshot\ \(221\).png);
     background-position: -70px -30px;
 }
 
@@ -941,13 +941,13 @@ span.hamburger-menu {
 }
 
 .contact .contactitem .info .info2 .address .span1 {
-    background-image: url(/assets/icons/contact-icons/location.png);
+    background-image: url(assets/icons/contact-icons/location.png);
     width: 30px;
     height: 30px;
 }
 
 .contact .contactitem .info .info2 .email .span2 {
-    background-image: url(/assets/icons/contact-icons/email.png);
+    background-image: url(assets/icons/contact-icons/email.png);
     width: 28px;
     height: 28px;
 }
@@ -955,7 +955,7 @@ span.hamburger-menu {
 .contact .contactitem .info .info2 .phone .span3 {
     width: 30px;
     height: 30px;
-    background-image: url(/assets/icons/contact-icons/telephone.png);
+    background-image: url(assets/icons/contact-icons/telephone.png);
 }
 
 .contact .contactitem .info iframe {
@@ -1090,7 +1090,7 @@ span.hamburger-menu {
         top: 23px !important;
         width: 33px !important;
         height: 33px !important;
-        background-image: url(/assets/icons/hamburger-menu-icons/close.svg) !important;
+        background-image: url(assets/icons/hamburger-menu-icons/close.svg) !important;
         /* background: #05206c !important; */
     }
 
@@ -1305,8 +1305,8 @@ span.hamburger-menu {
 /* font face */
 @font-face {
     font-family: 'Poppins';
-    src: url(/assets/fonts/Poppins-Regular.ttf) format(truetype);
-    src: url(/assets/fonts/Poppins-Light.ttf) format(truetype);
+    src: url(assets/fonts/Poppins-Regular.ttf) format(truetype);
+    src: url(assets/fonts/Poppins-Light.ttf) format(truetype);
     font-display: swap;
 }
 
