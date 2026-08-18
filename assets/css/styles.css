@@ -16,7 +16,7 @@
 /* ============== Body Style ==============e */
 body {
     background-color: rgb(7, 7, 37);
-    background-image: url(assets/img/background-image/bg2.jpg);
+    background-image: url(../assets/img/background-image/bg2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
